@@ -1,0 +1,32 @@
+<html>
+<head>
+    <title>Form Validation</title>
+    <style>
+        form{
+            border: 2px solid black;
+            background-color: white;
+            padding:240px;
+            align-content:center;
+            border-radius:10px ;
+        }
+    </style>
+</head>
+<body>
+    <form onsubmit="return Pass()">
+        <div style="text-align:center;">
+        <h1 style="color:slategrey;">Form</h1>
+        <label for="UN">Username:</label>
+        <input type="text" id="UN" required>
+        <br><br>
+        <label for="Passw">Password:</label>
+        <input type="password" id="Passw" required>
+        <br><br>
+        <label for="Zip">Zip-Code:</label>
+        <input type="text" id="Zip" required>
+        <br><br>
+        <input type="Submit" value="Submit">
+        </div>
+    </form>
+    <script src="form.js"></script>
+</body>
+</html>
